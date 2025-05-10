@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goverment Polytechnic Nainital (Uttarakhand)</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* background: linear-gradient(135deg, #ffd17a, #5a8bd6); */
+            /* color: #333; */
+            background-color: #f20d0d;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 30px 10px 10px;
+            color: #384450;
+        }
+
+        h2 {
+            text-align: center;
+            color: #34495e;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 90%;
+            margin: 0 auto 40px;
+            border-collapse: collapse;
+            background: #ffffff;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            padding: 14px 18px;
+            text-align: left;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        tr:hover {
+            background-color: #f1f9ff;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="submit"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 8px;
+            width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        .form-container {
+            width: 90%;
+            max-width: 600px;
+            background: #ffffff;
+            margin: 20px auto 60px;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ecf0f1;
+            color: #555;
+            font-size: 14px;
+        }
+
+
+        * {
+            margin: 22px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(205, 208, 196);
+        }
+
+        ul {
+            background-color: rgb(7, 178, 251);
+            text-align: center;
+            list-style: none;
+            /* border-radius: 20px; */
+
+        }
+
+        ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        ul li a {
+            display: block;
+            padding: 0px 10px;
+            font-size: 35px;
+            text-decoration: none;
+            color: black;
+            text-align: left;
+        }
+
+        ul li ul.dropdown li {
+            display: block;
+            background: rgba(236, 91, 236, 0.999);
+            margin: 2px 0px;
+        }
+
+        ul li ul.dropdown {
+            width: auto;
+            background: #00FF8C;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+
+        ul li:hover ul.dropdown {
+            display: block;
+            background-color: rgb(160, 100, 158);
+        }
+
+
+
+
+        img {
+            margin-left: 350px;
+            display: flex;
+
+        }
+
+
+        #hr {
+            margin-left: 300px;
+            width: 460px;
+            height: 2px;
+            background-color: black;
+        }
+
+
+        #gp {
+            margin-top: -170px;
+            margin-left: 350px;
+            /* line-height: 2px; */
+            font-size: xx-large;
+            margin-bottom: 78px;
+        }
+
+
+
+        p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 600;
+            line-height: 30px;
+            font-size: x-large;
+        }
+
+        #sec2 {
+            height: 103vh;
+            background-color: rgb(227, 223, 223);
+            margin-top: 315px;
+
+        }
+
+
+        #h1 {
+            padding: 10px;
+            background-color: white;
+            margin-top: -315px;
+            font-size: xx-large;
+            text-align: center;
+        }
+
+
+        #message {
+            width: 800px;
+            /* display: flex; */
+            margin-left: -5px;
+            text-align: justify;
+            margin-top: 30px;
+            left: 10px;
+            margin-bottom: 0px;
+
+        }
+
+        #message:hover {
+            transform: scale(1.02);
+        }
+
+
+        #Desk {
+            display: flex;
+            padding-left: 250px;
+            width: 31vw;
+            padding-top: 20px;
+            height: 10vh;
+            background-color: rgb(16, 232, 63);
+            font-size: xx-large;
+        }
+
+
+        #img2 {
+            margin-top: -413px;
+            margin-left: 950px;
+            display: flex;
+            border-radius: 20px;
+        }
+
+        #Message {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: large;
+            font-weight: 100;
+        }
+
+        #name {
+            margin-top: -10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 19px;
+            position: absolute;
+            font-weight: 500;
+            right: 180px;
+        }
+
+        #sec3 {
+            margin-top: 60px;
+            margin-bottom: 200px;
+            width: 85vw;
+            height: 10vh;
+            background-color: rgb(59, 12, 247);
+        }
+
+        .HR {
+            color: black;
+            width: 90vw;
+            height: 0.2vh;
+            margin-top: 20px;
+        }
+
+        #Ql {
+            margin-top: -2px;
+            border-radius: 20px;
+            width: 83.7vw;
+            left: 66px;
+            position: absolute;
+            /* background-color: rgb(208, 105, 208); */
+            text-align: center;
+            font-size: xx-large;
+            font-weight: 900;
+            color: white;
+        }
+
+
+        #Links {
+            text-decoration: underline;
+            width: 85vw;
+            position: absolute;
+            left: 66px;
+            margin-top: 78px;
+            color: white;
+            padding-top: px;
+            /* background-color: violet; */
+
+        }
+
+        #sectwo {
+            width: 85vw;
+            height: 99vh;
+        }
+
+        .implinks {
+            padding: 0px;
+            font-size: larger;
+            color: white;
+        }
+
+
+
+        #div2 {
+            margin-left: 600px;
+            margin-top: -600px;
+            display: relative;
+            width: 700px;
+            height: 50vh;
+            gap: 100px;
+        }
+
+        #AboutGPntl {
+            text-decoration: underline;
+            text-align: justify;
+            position: flex;
+            font-size: 30px;
+            top: 20px;
+            width: 45vw;
+            display: block;
+        }
+
+        #Dspngp {
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            line-height: 35px;
+            font-size: large;
+
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            font-size: larger;
+            position: absolute;
+        }
+
+
+        #sec4 {
+
+            border-radius: 20px;
+            margin-top: 180px;
+            height: 32vh;
+            width: 80vw;
+            border-radius: 20px;
+        }
+
+
+        #GP {
+            text-decoration: underline;
+            margin-top: -100px;
+            height: 100px;
+            font-size: xx-large;
+            display: flex;
+        }
+
+        #divfoot {
+
+            line-height: 25px;
+            margin-top: -40px;
+            width: 600px;
+            height: 100px;
+            font-size: large;
+            display: flex;
+        }
+
+        #contact_us {
+            width: 450px;
+            display: flex;
+            top: 1300px;
+            margin-top: -160px;
+            margin-left: 900px;
+            font-size: 19px;
+        }
+
+
+        #Git {
+            font-size: 23px;
+            position: absolute;
+            width: 450px;
+            display: flex;
+            top: 3650px;
+            margin-top: -250px;
+            margin-left: 750px;
+        }
+
+
+        #author {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+        }
+
+        #Copyright {
+            text-align: center;
+        }
+
+        .box1 {
+            width: auto;
+            height: 300px;
+            border: 3px solid black;
+            background-color: #bbd456;
+
+        }
+    </style>
+
+
+</head>
+<script src="script'js"></script>
+
+<body>
+    <header>
+        <section id="sec1">
+
+            <div class=" box1">
+
+                <img width="200px" height="200px"
+                    src="https://thcf.bing.com/th/id/OIP.iKl7XJdApT4JaRcMKyLbjgAAAA?w=229&h=229&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+                    controls alt="G.P Nainital logo">
+
+
+                <div>
+                    <h1 id="gp"> राजकीय पॉलीटेक्निक नैनीताल
+                        <hr id="hr"> Government Polytechnic Nainital
+                    </h1>
+                </div>
+            </div>
+
+            <ul>
+                <li> <a href="#"> Home </a> </li>
+
+                <li> <a href="Courses.html"> Courses </a>
+
+                </li>
+
+
+                <li> <a href="Gallery.html"> Gallery</a></li>
+                <li> <a href="AboutUs.html"> About us</a>
+
+            </ul>
+            <p>
+                1."Excellence is a habit, not a goal. At Government Polytechnic Nainital, every lesson, every project,
+                every effort is a step toward greatness." <br>
+                2."Your education here is not just about books—it's about innovation, creativity, and shaping a better
+                tomorrow. Keep pushing boundaries!" <br>
+                3. Success is built on hard work, perseverance, and learning. Every challenge at GP Nainital is an
+                opportunity to grow stronger and wiser." <br>
+                4. "The future belongs to those who believe in the power of their dreams. Let Government Polytechnic
+                Nainital be the foundation where those dreams take flight! <br>
+                5."Dream big, work hard, and stay curious. The knowledge and skills you gain here will shape your
+                journey beyond these walls!"
+            </p>
+
+            <hr class="HR">
+
+        </section>
+        <hr class="HR">
+
+        <main>
+            <section id="sec2">
+                <h1 id="h1"> Welcome to Goverment Polytechnic Nainital </h1>
+                <p>
+                    Welcome to Government Polytechnic Nainital District Nainital, one of the best Polytechnic College in
+                    Uttarkahnd. Here we are single-mindly focused on addressing students' needs in an increasingly
+                    competitive world. Life is not a set of instruction but a series of experience and learning process
+                    and engineering is not also apart from it. <br> <br>
+                    Our aim is not only to pursue academic excellent but also motivate and empower the talent skills and
+                    ability to each student need to be identified and encouraged so that our student is able to reach at
+                    great heights. Our unique supportive system will provide access to academic mentoring career
+                    counseling hand on experience at organization.
+                </p>
+
+                <div id="message">
+                    <h1 id="Desk"> Prinicipal's Desk </h1>
+                    <p id="Message">
+                        I am honoured and feel very privileged to be the Principal of Government Polytechnic Nainital.
+                        Government Polytechnic Nainital has an outstanding reputation for establishing high expectations
+                        and
+                        achieving excellent academic results. Talents too are constantly developed through sports and
+                        varied
+                        co-curricular activities. While academic excellence is our major thrust, the College is also
+                        devoted
+                        to prepare the students for life, groom them to face the challenges of tomorrow, and encourage
+                        them
+                        to be socially relevant. We constantly endeavor to always live up to this ideology and inculcate
+                        this into everything we do, with the aim that we will be able to ensure that the students grow
+                        to
+                        their full potential, while constantly being groomed to pass out as men and women competent to
+                        bear
+                        responsibility in all walks of life.
+                    </p>
+
+
+                </div>
+
+                <img width="500px" height="400px" id="img2" src="principal sir photo.jpeg" alt="">
+                <p id="name"> Principal of G.P Nainital - Mr. A.K.S Gaur</p>
+            </section>
+
+            <hr class="HR">
+
+
+            <!-- <section id="sectwo">
+
+                <div id="div2">
+                    <h3 id="AboutGPntl">ABOUT G.P College Nainital </h3>
+                    <h4 id="Dspngp">
+                        Government Polytechnic College, Nainital, established in 1957, recently celebrated it’s 68th
+                        anniversary of imparting high quality education to the students of Uttrakhand. Every year an
+                        entrance exam is conducted by U.B.T.E.R Here at G.P Nainital, we reinvent the way we teach, so
+                        that our
+                        students not only keeps up with the modern times but also have the skills to bring about a
+                        change.
+                        <br>
+                        The Goverment Polytechnic Nainital is One of the best technical college in Uttarakhand, where
+                        Uttarakhand's
+                        top Faculties are deployed for teaching highest level theory and practical (both) classes from
+                        scrath and
+                        step by step.
+                    </h4>
+
+                    <button><a id="button" href="About Us.html">Learn more</a></button>
+                </div> 
+
+            </section> -->
+
+
+            <section id="sec3">
+                <h1 id="Ql">Quick links</h1>
+                <ul id="Links">
+                    <li><a class="implinks" href="https://www.ubter.in/">UBTER, ROORKEE</a></li>
+                    <li><a class="implinks" href="http://ukdte.in/">UKDTE</a></li>
+                    <li><a class="implinks" href="https://www.irdtuttarakhand.org.in/"> IRDT </a></li>
+                    <li><a class="implinks" href="https://irdtuttarakhand.org.in/irdt1/irdt-download.aspx">IRDT
+                            E-SYLLABUS</a></li>
+                </ul>
+
+            </section>
+
+        </main>
+
+
+        <footer>
+            <section id="sec4">
+
+                <h1 id="GP"> Goverment Polytechnic Nainital</h1>
+
+                <div id="divfoot">
+                    Government Polytechnic Nainital, established in 1957, recently celebrated it’s 67th anniversary of
+                    imparting high quality education to the students of Uttrakhand. G.P Nainital is associated to
+                    Uttarakhand board of technical education Roorkee.
+                </div>
+
+
+                <p id="contact_us">
+                    Sherwani, Nainital <br>
+                    Uttarakhand 263001 <br>
+                    05942-236251 <br>
+                    govtpoly_ntl@rediffmail.com
+                </p>
+
+            </section>
+        </footer>
+        <h4 id="author"> Made by manoj <br></h4>
+        <p id="Copyright">&copy; GOVERNMENT POLYTECHNIC NAINITAL. All Rights Reserved.</p>
+</body>
+
+
+</html>

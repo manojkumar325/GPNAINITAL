@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+
+    <style>
+        /* Colors-only impressive styling */
+
+        body {
+            /* background: linear-gradient(to right, #fceabb, #f8b500); */
+            color: #1a1a1a;
+        }
+
+        #gp,
+        #Git,
+        #GP,
+        #author,
+        h2,
+        #Copyright {
+            color: #000000;
+        }
+
+        #hr {
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+        }
+
+        .course-left {
+           background-color: #fff;
+            color: #000000;
+        }
+
+        .course-right {
+           background-color: #fff;
+            color: #000000;
+        }
+
+        .course-center {
+            background-color: #fff;
+            color: #000000;
+        }
+
+        .Aboutcourse,
+        .Aboutcoursel,
+        .Aboutcourser {
+
+            color: #000;
+        }
+
+        #sec4 {
+            /* background: linear-gradient(to right, #ffe259, #ffa751); */
+            color: #000;
+        }
+
+        #divfoot,
+        #contact_us {
+            color: #000;
+
+        }
+
+        img {
+            margin-left: 350px;
+            display: flex;
+
+        }
+
+
+        #hr {
+            margin-left: 00px;
+            width: 460px;
+            height: 2px;
+            background-color: black;
+        }
+
+
+        #gp {
+            margin-top: -120px;
+            margin-left: 580px;
+            line-height: 2px;
+            font-size: xx-large;
+            margin-bottom: 78px;
+        }
+
+
+        #Section1 {
+            margin-left: 100px;
+            width: 85vw;
+            height: 40vh;
+        }
+
+        #Section2 {
+
+            margin-left: 100px;
+            width: 85vw;
+            height: 110vh;
+
+        }
+
+
+        .Aboutcoursel {
+            margin-bottom: 20px;
+            position: absolute;
+            right: 105px;
+            width: 450px;
+            height: 130px;
+            margin-top: 60px;
+            font-size: large;
+            line-height: 30px;
+
+
+        }
+
+
+        .Aboutcourse {
+            margin-bottom: 20px;
+            position: absolute;
+            left: 120px;
+            width: 450px;
+            height: 130px;
+            margin-top: -200px;
+            font-size: large;
+            line-height: 30px;
+
+        }
+
+        .Aboutcourser {
+            margin-bottom: 20px;
+            position: absolute;
+            left: 500px;
+            width: 450px;
+            height: 130px;
+            margin-top: 80px;
+            font-size: large;
+            line-height: 30px;
+
+
+        }
+
+
+        .container {
+            position: relative;
+        }
+
+        .course-right {
+            width: 350px;
+            height: 200px;
+            border: 2px solid Black;
+            /* border-radius: 50%; */
+            padding-left: 200px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+            font-weight: 900;
+            margin-bottom: 40px;
+            margin-left: 70px;
+            padding-top: 5px;
+        }
+
+        .course-left {
+            width: 350px;
+            height: 200px;
+            border: 2px solid Black;
+            /* border-radius: 50%; */
+            padding-left: 200px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+            font-weight: 900;
+            margin-bottom: 40px;
+            position: absolute;
+            top: 10px;
+            right: 70px;
+        }
+
+
+        .course-center {
+            width: 350px;
+            height: 200px;
+            border: 2px solid Black;
+            /* border-radius: 50%; */
+            padding-left: 200px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: x-large;
+            font-weight: 900;
+            margin-bottom: 40px;
+            position: absolute;
+            top: 10px;
+            right: 320px;
+        }
+
+
+        #sec4 {
+
+            border-radius: 20px;
+            margin-left: 97px;
+            height: 50vh;
+            width: 85vw;
+            /* border-radius: 20px; */
+        }
+
+
+        #GP {
+            text-decoration: underline;
+            margin-top: 50px;
+            position: absolute;
+            left: 100px;
+            height: 100px;
+            font-size: xx-large;
+            display: flex;
+        }
+
+        #divfoot {
+            position: absolute;
+            margin-left: 90px;
+            line-height: 25px;
+            margin-top: 130px;
+            width: 600px;
+            height: 100px;
+            font-size: large;
+            display: flex;
+        }
+
+
+        #contact_us {
+            position: absolute;
+            width: 450px;
+            display: flex;
+            margin-top: 100px;
+            margin-left: 1080px;
+            font-size: large;
+        }
+
+
+        #Git {
+            position: absolute;
+            width: 450px;
+            display: flex;
+            top: 1740px;
+            margin-top: -250px;
+            margin-left: 950px;
+        }
+
+
+        #author {
+
+            margin-top: -100px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 23px;
+            font-weight: 400;
+        }
+
+        #Copyright {
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <section id="Section1">
+        <header>
+            <img width="200px" height="200px"
+                src="https://thcf.bing.com/th/id/OIP.iKl7XJdApT4JaRcMKyLbjgAAAA?w=229&h=229&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+                controls alt="G.P Nainital logo">
+
+
+            <div>
+                <h1 id="gp"> राजकीय पॉलीटेक्निक नैनीताल
+                    <hr id="hr"> Government Polytechnic Nainital
+                </h1>
+            </div>
+
+        </header>
+    </section>
+
+
+
+
+    <section id="Section2">
+        <h2>Government Polytechnic Nainital Offers Various Diploma Courses in Different-2 Fields..</h2>
+        <br><br><br>
+        <div class="container">
+            <div class="course-left">Modern Office Manage<br> -ment & Secretial Practise</div>
+            <div class="Aboutcoursel"> Covers office procedures, communication skills, computer applications, record
+                management, and automation tools for efficient office administration.
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="course-right"> Civil Engineering</div>
+            <div class="Aboutcourse"> Focuses on the design, construction, and maintenance of infrastructure projects.
+                Covers
+                surveying, structural analysis, and construction management.</div>
+        </div>
+        <div class="container">
+            <div class="course-left"> Mechanical Engin-eering</div>
+            <div class="Aboutcoursel"> Deals with the principles of mechanics, design, manufacturing, and thermal
+                engineering. Equips students for careers in various industrial sectors.
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="course-right"> Information Technology</div>
+            <div class="Aboutcourse">Focuses on programming, data structures, algorithms, database management, and
+                computer
+                networks. Prepares students for the IT industry.</div>
+        </div>
+        <div class="container">
+            <div class="course-left"> Electrical Engineering</div>
+            <div class="Aboutcoursel">Covers the generation, transmission, and distribution of electrical power, as well
+                as
+                electronic circuits and control systems.</div>
+        </div>
+        <div class="container">
+            <div class="course-right"> Electronic Engineering</div>
+            <div class="Aboutcourse">Focuses on the design, development, and maintenance of electronic devices and
+                systems.
+                Includes circuits, microprocessors, communication systems, and digital electronics.</div>
+        </div>
+    </section>
+
+
+
+
+    <section id="sec4">
+
+        <h1 id="GP"> Goverment Polytechnic Nainital</h1>
+
+        <div id="divfoot">
+            Government Polytechnic Nainital, established in 1957, recently celebrated it’s 67th anniversary of
+            imparting high quality education to the students of Uttrakhand. G.P Nainital is associated to
+            Uttarakhand board of technical education Roorkee.
+        </div>
+
+        <p id="contact_us">
+            Sherwani, Nainital <br>
+            Uttarakhand 263001 <br>
+            05942-236251 <br>
+            govtpoly_ntl@rediffmail.com
+        </p>
+
+
+
+
+    </section>
+    <h4 id="author"> Made by manoj <br></h4>
+    <p id="Copyright">&copy; GOVERNMENT POLYTECHNIC NAINITAL. All Rights Reserved.</p>
+</body>
+
+</html>
